@@ -21,23 +21,43 @@ The report’s insights were derived from a combination of internal and external
 
 
 ## TOOLS USED 
-### - Powerbi for data cleaning,data analysis and visualisation [Download here] (https://www.microsoft.com/en-us/power-platform/products/power-bi)
+### - Powerbi for data cleaning,data analysis and visualisation [Download Here]_(https://www.microsoft.com/en-us/power-platform/products/power-bi).
   1. data cleaning
   2. for analysis
   3. for data visualization
 
 ### - Github for portfolio building
 
+### IN DATA CLEANING AND PREPARATIONS
+in the initial phase of data cleaning and preparations ,we performed the following actions;
+
+Data loading and Insppection
+
+Handling missing Variables 
+
+Data cleaning and formatting
+
+### Exploratory data analysis
+
+ EDA involved the exploring of the data to answer some questions  about the data such as;
+
+-What Is The Total Product Sales
+
+-Total Sales Per Year
+
+-Total Profit By Segment
+
+### Data analysis
+This is where we incclude some basic lines of code or queries;
+
+
+```POWER BI
+total sales = SUM(financials[ Sales])
+
+total profit = SUM(financials[Profit])
+
+sum by segment = CALCULATE(SUM(financials[ Sales]),ALLEXCEPT(financials,financials[Segment]))
+```
+
 
  
-
-
-
-
-Power BI Desktop: The primary application for creating reports and data visualizations.
-
-Power Query: A data connection technology that enables you to discover, connect, and refine data from various sources.
-
-DAX (Data Analysis Expressions): A formula language used for creating custom calculations and aggregations in Power BI.
-
-Data Modeling: Tools for building relationships between different data tables and optimizing data models.
