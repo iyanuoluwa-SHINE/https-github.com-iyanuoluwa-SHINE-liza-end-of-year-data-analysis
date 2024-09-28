@@ -59,5 +59,7 @@ total profit = SUM(financials[Profit])
 sum by segment = CALCULATE(SUM(financials[ Sales]),ALLEXCEPT(financials,financials[Segment]))
 ```
 
+### Data visualization
+
 
  
