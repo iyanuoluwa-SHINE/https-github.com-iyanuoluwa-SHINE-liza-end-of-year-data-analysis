@@ -21,7 +21,7 @@ The report’s insights were derived from a combination of internal and external
 
 
 ## TOOLS USED 
-### - Powerbi for data cleaning,data analysis and visualisation [Download Here]_(https://www.microsoft.com/en-us/power-platform/products/power-bi).
+### - Powerbi for data cleaning,data analysis and visualisation [Download Here](https://www.microsoft.com/en-us/power-platform/products/power-bi)
   1. data cleaning
   2. for analysis
   3. for data visualization
